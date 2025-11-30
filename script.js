@@ -8,7 +8,7 @@
  * Para usar imagens locais, coloque os arquivos na mesma pasta e use: './nome-da-imagem.jpg'
  */
 const carouselImages = [
-    'img/foto-1.jpg',
+    'foto-1.jpg',
     'img/foto-2.jpg',
     'img/foto-3.jpg',
     'img/foto-4.jpg',
@@ -77,4 +77,5 @@ document.addEventListener('DOMContentLoaded', function() {
     // Cria o carrossel quando a página estiver pronta
     createCarousel();
 });
+
 
