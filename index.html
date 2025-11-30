@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Configurações básicas da página -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Apresentação da nossa escola - Conheça nossa instituição de ensino">
+    <title>Escola Prof.ª Graça de Fátima</title>
+    
+    <!-- Link para o arquivo de estilos CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Elementos decorativos animados de fundo -->
+    <div class="background-decorations">
+        <!-- Bandeirinhas decorativas -->
+        <div class="bunting-top"></div>
+        <div class="bunting-bottom"></div>
+        
+        <!-- Fogueiras animadas -->
+        <div class="bonfire bonfire-left">
+            <div class="flame flame-1"></div>
+            <div class="flame flame-2"></div>
+            <div class="flame flame-3"></div>
+        </div>
+        <div class="bonfire bonfire-right">
+            <div class="flame flame-1"></div>
+            <div class="flame flame-2"></div>
+            <div class="flame flame-3"></div>
+        </div>
+    </div>
+    
+    <!-- Cabeçalho da página -->
+    <header class="header">
+        <div class="logo">
+        <img src="img/img-logo.png" alt="">
+        </div>
+        <div class="container">
+            <!-- Título principal destacado -->
+            <p class="subtitle">Conheça a Nossa Escola</p>
+            <h1 class="main-title">Prof.ª Graça de Fátima Quaresma do Amaral</h1>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal da página -->
+    <main class="main-content">
+        <!-- Seção de introdução -->
+        <section class="intro-section">
+            <div class="container">
+                <h2 class="section-title">Festa Junina 2025</h2>
+                <p class="intro-text">
+                    A nossa Escola realizou, neste ano, uma animada e tradicional Festa Junina, reunindo alunos, professores, familiares e toda a comunidade escolar. O evento foi marcado por um clima de celebração, alegria e muita união, resgatando a cultura popular brasileira com suas cores, músicas e sabores típicos.
+                </p>
+            </div>
+        </section>
+
+        <!-- Seção do vídeo de apresentação -->
+        <section class="video-section">
+            <div class="container">
+                <h2 class="section-title">Nossa Galeria</h2>
+                <p class="section-description">
+                    Veja os Momentos Marcantes da <br> Nossa Festa Junina.
+                </p>
+            </div>
+            
+            <!-- Carrossel de imagens infinito - ocupa toda a largura da tela -->
+            <div class="carousel-container">
+                <div class="carousel-track" id="carouselTrack">
+                    <!-- As imagens serão inseridas via JavaScript -->
+                </div>
+            </div>
+            
+            <div class="container">
+                <!-- Container do vídeo responsivo -->
+                <div class="video-container">
+                    <video src="img/video-1.mp4" controls class="video-player"></video>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Prof.ª Graça de Fátima Quaresma do Amaral. Todos os direitos reservados.</p>
+            <p class="footer-text">Educação transformadora para um mundo melhor.</p>
+        </div>
+    </footer>
+
+    <!-- Link para o arquivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+
