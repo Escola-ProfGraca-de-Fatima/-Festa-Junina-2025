@@ -9,11 +9,11 @@
  */
 const carouselImages = [
     'foto-1.jpg',
-    'img/foto-2.jpg',
-    'img/foto-3.jpg',
-    'img/foto-4.jpg',
-    'img/foto-5.jpg',
-    'img/foto-6.jpg',
+    'foto-2.jpg',
+    'foto-3.jpg',
+    'foto-4.jpg',
+    'foto-5.jpg',
+    'foto-6.jpg',
 ];
 
 /**
@@ -77,5 +77,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Cria o carrossel quando a página estiver pronta
     createCarousel();
 });
+
 
 
